@@ -2,10 +2,10 @@
 @import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap);
 
 /* colour palette used
-    - #416a8e - blue
-    - #aa9581 - 
-    - #3a2620 - dark brown
-    - 
+    - #416a8e - Blue - highlight colour
+    - #aa9581 - Light brown - secondary colour
+    - #3a2620 - Dark brown - primary colour
+    - #7a9fc2 - Light blue - light highlight colour
     -
  */
 
@@ -14,6 +14,9 @@
     --primary-font: "inter", sans-serif;
     --secondary-font: "Macondo", cursive;
     --primary-color: #3a2620; /* Dark brown */
+    --secondary-color: #aa9581; /* Light brown */
+    --highlight-color: #416a8e; /* Blue */
+    --light-highlight-color: #7a9fc2; /* Light Blue */
 }
 
 /* Global styles */
@@ -26,3 +29,6 @@ h1, h2, h3 {
     color: var(--primary-color);
 }
 
+.sub-heading-color {
+    color: var(--highlight-color);
+}
