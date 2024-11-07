@@ -79,6 +79,11 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+#new-games .card,
+#fav-games .card {
+    border: none;
+}
+
 /*Grid visualisation CSS for testing*/
 /* .container,
 .row {
@@ -123,3 +128,4 @@ h2 {
         min-height: 195px;
     }
 }
+
